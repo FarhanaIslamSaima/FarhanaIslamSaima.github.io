@@ -11,7 +11,7 @@ const Main = () => {
                 <LeftBar/>
             </Box>
             <Box sx={{width:'50%'}}>
-                This is right side
+                <RightBar></RightBar>
             </Box>
 
             </Box>
