@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Typography} from '@mui/material'
-const Education = () => {
+
+const BSC = () => {
     return (
         <>
         <Box sx={{display:{xs:'none',lg:"flex"},background:"white",justifyContent:'center',width:"70%",margin:'0 auto',flexDirection:'column',padding:'20px'}}>
@@ -11,18 +12,14 @@ const Education = () => {
                     paddingBottom:'5px'
                 }}}>
                 
-                <Typography>JOB POSITION</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY NAME</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY LOCATION</Typography>
+                <Typography sx={{fontSize:'20px',fontWeight:'bold'}}>BSC in Electrical & Computer Enginnering</Typography>
+                <Typography sx={{fontSize:'14px'}}>Rajshahi University Of Engineering & Technology</Typography>
+                <Typography sx={{fontSize:'14px'}}>Rajshahi</Typography>
 
                 </Box>
                 <Box sx={{width:"50%"}}>
-                    <Typography>
-                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-
- 
-
-I’m a great place for you to tell a story and let your users know a little more about you.
+                    <Typography sx={{color:'grey',lineHeight:'30px'}}>
+                    I've always wanted to pursue a degree in computer related subject. Right now I'm in my first year in ECE. On my way to make my dream come true. Looking forward to learning many intersting staffs and make my 4 years journey memorable...
                     </Typography>
 
                 </Box>
@@ -35,21 +32,17 @@ I’m a great place for you to tell a story and let your users know a little mor
             <Box sx={{ width:"100%",display:"flex",flexDirection:'column'}}>
             
                 <Box sx={{width:"100%",'&>*':{
-                    paddingBottom:'5px'
+                    paddingBottom:'7px'
                 }}}>
                 
-                <Typography>JOB POSITION</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY NAME</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY LOCATION</Typography>
+                <Typography sx={{fontSize:'20px',fontWeight:'bold'}}>BSC in Electrical & Computer Enginnering</Typography>
+                <Typography sx={{fontSize:'14px'}}>Rajshahi University Of Engineering & Technology</Typography>
+                <Typography sx={{fontSize:'14px'}}>Rajshahi</Typography>
 
                 </Box>
                 <Box sx={{width:"100%"}}>
-                    <Typography>
-                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-
- 
-
-I’m a great place for you to tell a story and let your users know a little more about you.
+                <Typography sx={{color:'grey',lineHeight:'30px'}}>
+                    I've always wanted to pursue a degree in computer related subject. Right now I'm in my first year in ECE. On my way to make my dream come true. Looking forward to learning many intersting staffs and make my 4 years journey memorable...
                     </Typography>
 
                 </Box>
@@ -60,4 +53,4 @@ I’m a great place for you to tell a story and let your users know a little mor
     );
 };
 
-export default Education;
+export default BSC;

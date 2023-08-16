@@ -17,6 +17,7 @@ import Button from '@mui/material/Button';
 import Face3Icon from '@mui/icons-material/Face3';
 import SquareIcon from '@mui/icons-material/Square';
 import { motion, sync, useCycle } from "framer-motion";
+import { Link } from 'react-router-dom';
 const variants = {
   open: {
     transition: { staggerChildren: 0.07, delayChildren: 0.2 }
@@ -93,13 +94,13 @@ function DrawerAppBar(props) {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' } ,flexDirection:'row',alignItems:'center'}}
           >
           <Typography sx={{fontWeight:'bold',fontSize:'20px',display:'flex',alignItems:'center'}}><SquareIcon sx={{color:'blue',marginRight:'10px'}}/> Farhana Islam /</Typography>
-          <Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography>
+          <Link to={"/"} style={{textDecoration:'none'}}><Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography></Link>
 
           </Typography>
          
           <Typography sx={{flexGrow:1,display:{sm:'none'}}}>
           <Typography sx={{fontWeight:'bold',fontSize:'20px',display:'flex',alignItems:'center'}}><SquareIcon sx={{color:'blue',marginRight:'10px'}}/> Farhana Islam</Typography>
-          <Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography>
+          <Link to={"/"} style={{textDecoration:'none'}}><Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography></Link>
           </Typography>
        
           <IconButton

@@ -20,14 +20,21 @@ const RightBar = () => {
         }}}>
           <Link to={'/resume'} style={{textDecoration:'none'}}>
           <Typography sx={{background:'#0050FF',borderRadius:"20%",fontWeight:'bold',padding:'5px', display:'flex',
-          justifyContent:"center", width:'250px',margin:"20px",color:"white",border:'2px solid #0050FF','&:hover':{
+          justifyContent:"center", width:'250px',color:"white",border:'2px solid #0050FF','&:hover':{
             background:'white',color:'black',
             
           }}}>Resume</Typography>
           
           </Link>
           
-          <Typography sx={{border:'2px solid black', padding:"6px"}}>Projects</Typography>
+          <Link to={'/project'} style={{textDecoration:'none'}}>
+          <Typography sx={{background:'white',color:'black',borderRadius:"20%",fontWeight:'bold',padding:'5px', display:'flex',
+          justifyContent:"center", width:'250px',color:"black",border:'2px solid black','&:hover':{
+            background:'#0050FF',color:'white',
+            
+          }}}>Projects</Typography>
+          
+          </Link>
         </Box>
         <Box sx={{padding:'25px',color:'grey',fontSize:'16px'}}>
           <Typography sx={{fontSize:'16px'}}>Heii There!! This is Farhana Islam Saima. I'm a fullstack webdeveloper.Proficient at both front and backend .. You can find my skill set and experience in my resume.Don't hesitate to knock me if you need any help</Typography>

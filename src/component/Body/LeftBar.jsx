@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from 'react-router-dom';
 
 const LeftBar = () => {
     return (
@@ -14,10 +15,10 @@ const LeftBar = () => {
         <img src={pic} width={'100%'} height={'100%'} style={{borderRadius:"50%"}}/>
         
       </Box>
-      <Typography sx={{fontWeight:"bold",fontSize:"22px",margin:'10px',borderBottom:'3px solid #7A9EF3',paddingBottom:"20px",marginBottom:'30px',}}>Farhana Islam</Typography>
+      <Typography sx={{fontWeight:"bold",fontSize:"22px",borderBottom:'3px solid #7A9EF3',paddingBottom:"20px",marginBottom:'30px',}}>Farhana Islam</Typography>
       
     <Typography sx={{fontSize:'20px',marginBottom:'40px'}}>FULLSTACK DEVELOPER</Typography>
-    <Box sx={{background:'white',display:'flex',justifyContent:"center",alignItems:'center',marginTop:'auto',padding:'10px',width:'800px','&>*':{
+    <Box sx={{background:'white',display:'flex',justifyContent:"center",alignItems:'center',marginTop:'auto',width:'800px','&>*':{
         margin:'10px',
         fontSize:'30px'
     }}}>
@@ -50,12 +51,26 @@ const LeftBar = () => {
           cursor:'pointer',
           width:'150px'
         }}}>
-          <Typography sx={{background:'#0050FF',fontWeight:'bold',color:"white",border:'2px solid #0050FF',marginRight:'20px','&:hover':{
-            background:'white',color:'black'
+         <Link to={'/resume'} style={{textDecoration:'none'}}>
+          <Typography sx={{background:'#0050FF',borderRadius:"20%",fontWeight:'bold',padding:'5px', display:'flex',
+          justifyContent:"center", width:'250px',color:"white",border:'2px solid #0050FF','&:hover':{
+            background:'white',color:'black',
+            
           }}}>Resume</Typography>
-          <Typography sx={{border:'2px solid black', padding:"6px"}}>Projects</Typography>
+          
+          
+          
+          </Link>
+          <Link to={'/project'} style={{textDecoration:'none'}}>
+          <Typography sx={{background:'white',color:'black',borderRadius:"20%",fontWeight:'bold',padding:'5px', display:'flex',
+          justifyContent:"center", width:'250px',color:"black",border:'2px solid black','&:hover':{
+            background:'#0050FF',color:'white',
+            
+          }}}>Projects</Typography>
+          
+          </Link>
         </Box>
-    <Box sx={{background:'white',display:'flex',justifyContent:"center",alignItems:'center',marginTop:'20px',padding:'8px',width:'800px','&>*':{
+    <Box sx={{background:'white',display:'flex',justifyContent:"center",margin:"10px",alignItems:'center',padding:'10px',marginTop:'10px',padding:'5px',width:'800px','&>*':{
         margin:'10px',
         fontSize:'30px'
     }}}>

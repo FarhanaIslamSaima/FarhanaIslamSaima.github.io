@@ -12,18 +12,14 @@ const Experience = () => {
                     paddingBottom:'5px'
                 }}}>
                 
-                <Typography>JOB POSITION</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY NAME</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY LOCATION</Typography>
+                <Typography sx={{fontWeight:'bold'}}>Full-Stack Developer</Typography>
+                
 
                 </Box>
                 <Box sx={{width:"50%"}}>
-                    <Typography>
-                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-
- 
-
-I’m a great place for you to tell a story and let your users know a little more about you.
+                    <Typography sx={{color:'grey',lineHeight:'30px'}}>
+                    I've participated Some hackathon. There I've worked both in front and backend site.. I've also worked for my friend's blog website. there my role was both in front and backend site.. 
+                    projects are given in projects section.
                     </Typography>
 
                 </Box>
@@ -35,22 +31,18 @@ I’m a great place for you to tell a story and let your users know a little mor
             <Typography sx={{fontWeight:'bold',color:'#0000FF',marginBottom:"20px"}} variant={'h5'}>PRESENT</Typography>
             <Box sx={{ width:"100%",display:"flex",flexDirection:'column'}}>
             
-                <Box sx={{width:"100%",'&>*':{
+            <Box sx={{width:"100%",'&>*':{
                     paddingBottom:'5px'
                 }}}>
                 
-                <Typography>JOB POSITION</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY NAME</Typography>
-                <Typography sx={{fontSize:'14px'}}>COMPANY LOCATION</Typography>
+                <Typography sx={{fontWeight:'bold'}}>Full-Stack Developer</Typography>
+                
 
                 </Box>
                 <Box sx={{width:"100%"}}>
-                    <Typography>
-                    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-
- 
-
-I’m a great place for you to tell a story and let your users know a little more about you.
+                <Typography sx={{color:'grey',lineHeight:'30px'}}>
+                    I've participated Some hackathon. There I've worked both in front and backend site.. I've also worked for my friend's blog website. there my role was both in front and backend site.. 
+                    projects are given in projects section.
                     </Typography>
 
                 </Box>
