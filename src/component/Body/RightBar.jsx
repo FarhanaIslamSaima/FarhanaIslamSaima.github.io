@@ -1,5 +1,6 @@
 import React from 'react';
 import {Box,Typography} from '@mui/material'
+import { Link } from 'react-router-dom';
 
 const RightBar = () => {
     return (
@@ -17,10 +18,15 @@ const RightBar = () => {
           cursor:'pointer',
           width:'150px'
         }}}>
-          <Typography sx={{background:'#0050FF',fontWeight:'bold',margin:"20px",color:"white",border:'2px solid #0050FF','&:hover':{
+          <Link to={'/resume'} style={{textDecoration:'none'}}>
+          <Typography sx={{background:'#0050FF',borderRadius:"20%",fontWeight:'bold',padding:'5px', display:'flex',
+          justifyContent:"center", width:'250px',margin:"20px",color:"white",border:'2px solid #0050FF','&:hover':{
             background:'white',color:'black',
             
           }}}>Resume</Typography>
+          
+          </Link>
+          
           <Typography sx={{border:'2px solid black', padding:"6px"}}>Projects</Typography>
         </Box>
         <Box sx={{padding:'25px',color:'grey',fontSize:'16px'}}>
