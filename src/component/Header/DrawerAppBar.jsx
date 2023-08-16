@@ -15,6 +15,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Face3Icon from '@mui/icons-material/Face3';
+import SquareIcon from '@mui/icons-material/Square';
 import { motion, sync, useCycle } from "framer-motion";
 const variants = {
   open: {
@@ -86,25 +87,26 @@ function DrawerAppBar(props) {
 
         <Toolbar>
         
-        
-          <Typography
+        <Typography
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' } ,flexDirection:'row',alignItems:'center'}}
           >
-          <Typography sx={{fontWeight:'bold',fontSize:'20px'}}><Face3Icon sx={{color:'blue'}}></Face3Icon> Farhana Islam /</Typography>
+          <Typography sx={{fontWeight:'bold',fontSize:'20px',display:'flex',alignItems:'center'}}><SquareIcon sx={{color:'blue',marginRight:'10px'}}/> Farhana Islam /</Typography>
           <Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography>
 
           </Typography>
+         
           <Typography sx={{flexGrow:1,display:{sm:'none'}}}>
-            My name
+          <Typography sx={{fontWeight:'bold',fontSize:'20px',display:'flex',alignItems:'center'}}><SquareIcon sx={{color:'blue',marginRight:'10px'}}/> Farhana Islam</Typography>
+          <Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography>
           </Typography>
+       
           <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="end"
+           
             onClick={handleDrawerToggle}
-            sx={{ mr: 3, display: {  sm:'none'},}}
+            fontSize={'large'}
+            sx={{  display: {  sm:'none'}, fontSize:'large',fontWeight:'bold',color:"blue"}}
             
           >
             <MenuIcon />
