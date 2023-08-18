@@ -25,10 +25,34 @@ const Project1 = () => {
         },
       }}
         >
-            <Box sx={{height:'800px'}}>
-                <Box sx={{padding:'10px'}}>
+            <Box sx={{height:'800px',width:"100%",}}>
+                <Box sx={{padding:'5px',display:{xs:'none',lg:'block'}}}>
                     <CloseIcon sx={{marginLeft:'auto',float:'right',fontSize:'30px',cursor:'pointer' } } onClick={handleClose}  />
                     <Box sx={{padding:'20px'}}>
+                    <Box sx={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
+                        <img src={pic} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
+                    </Box>
+                    <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>Deptdemia</Typography>
+                    <Typography sx={{lineHeight:'25px',color:'grey',fontSize:"16px"}}>
+                        Deptdemia is a website for a indept academia. Students of a particular department can ask question find solution and can contribute academic resources here.I collaborated with my friend and prepared this for a hackathon
+
+                    </Typography>
+                    <Box sx={{ marginTop:'10px','&>*':{
+                        marginBottom:"10px"
+                    }}}>
+                    <Typography ><b>Technology Used: </b>React,Firebase,Material-UI</Typography>
+                    <Typography><b>Website Link:</b><Link to={"https://deptamia-4dab5.web.app/"}> https://deptamia-4dab5.web.app</Link></Typography>
+                    <Typography><b>Github Link:</b><Link to={"https://github.com/FarhanaIslamSaima/Deptdemia.git"}> https://github.com/FarhanaIslamSaima/Deptdemia.git</Link></Typography>
+
+                    </Box>
+                    
+
+                    </Box>
+                   
+                </Box>
+                <Box sx={{width:'100%',display:{xs:'block',lg:'none',padding:'10px'}}}>
+                    <CloseIcon sx={{marginLeft:'auto',float:'right',fontSize:'30px',cursor:'pointer' } } onClick={handleClose}  />
+                    <Box sx={{padding:'10px'}}>
                     <Box sx={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
                         <img src={pic} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
                     </Box>
