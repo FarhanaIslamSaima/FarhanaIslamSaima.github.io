@@ -22,12 +22,10 @@ const LeftBar = () => {
         margin:'10px',
         fontSize:'30px'
     }}}>
-        <FacebookIcon>
-
-        </FacebookIcon>
-        <TwitterIcon/>
-        <InstagramIcon/>
-        <LinkedInIcon/>
+         <Link to={"https://www.facebook.com/farhana.saima.52"}> <FacebookIcon sx={{color:"black"}}></FacebookIcon></Link>
+        <Link to={"https://twitter.com/Farhana61267022"}><TwitterIcon sx={{color:"black"}}/></Link>
+        <Link to={"https://www.instagram.com/farhana.saima.52"}><InstagramIcon sx={{color:"black"}}/></Link>
+        <Link to={"https://www.linkedin.com/in/farhana-islam-9190721b1/"}><LinkedInIcon sx={{color:"black"}}/></Link>
     </Box>
         </Box>
 
@@ -75,12 +73,12 @@ const LeftBar = () => {
         fontSize:'30px'
     }}}>
         
-        <FacebookIcon>
+       
 
-        </FacebookIcon>
-        <TwitterIcon/>
-        <InstagramIcon/>
-        <LinkedInIcon/>
+        <Link to={"https://www.facebook.com/farhana.saima.52"}> <FacebookIcon sx={{color:"black"}}></FacebookIcon></Link>
+        <Link to={"https://twitter.com/Farhana61267022"}><TwitterIcon sx={{color:"black"}}/></Link>
+        <Link to={"https://www.instagram.com/farhana.saima.52"}><InstagramIcon sx={{color:"black"}}/></Link>
+        <Link to={"https://www.linkedin.com/in/farhana-islam-9190721b1/"}><LinkedInIcon sx={{color:"black"}}/></Link>
     </Box>
         </Box>
 

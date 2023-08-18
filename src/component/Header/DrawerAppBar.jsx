@@ -17,6 +17,7 @@ import Button from '@mui/material/Button';
 import Face3Icon from '@mui/icons-material/Face3';
 import SquareIcon from '@mui/icons-material/Square';
 import { motion, sync, useCycle } from "framer-motion";
+import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 const variants = {
   open: {
@@ -52,7 +53,7 @@ const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
 
 function DrawerAppBar(props) {
-  const [isOpen, toggleOpen] = useCycle(false, true);
+  const [isOpen, toggleOpen] = React.useState(false);
   
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -60,18 +61,27 @@ function DrawerAppBar(props) {
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
+  const handleClose=()=>{
+    setMobileOpen(false);
+  }
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
-      </Typography>
-      <Divider />
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center',cursor:'pointer' }}>
+      <Box onClick={handleDrawerToggle}>
+      <CloseIcon sx={{float:'right',fontSize:'40px',cursor:"pointer"}} />
+
+      </Box>
+      
+      
+   
+      
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
+            <ListItemButton sx={{ textAlign: 'center' ,'&>*':{
+              fontSize:'30px',fontWeight:'bold'
+            }}}>
+              <ListItemText primary={item} sx={{fontSize:'30px',fontWeight:'bold'}} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -125,12 +135,7 @@ function DrawerAppBar(props) {
       <Box>
        
       <Box component="nav" >
-        <motion.nav 
-            initial={false}
-            animate={isOpen ? "open" : "closed"}
-          
-        >
-          <motion.div variants={sidebar}>
+      
           <Drawer
          container={container}
          variant="temporary"
@@ -143,16 +148,16 @@ function DrawerAppBar(props) {
            
            display: { xs: 'flex' },
            
-           '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth,display:'flex' },
+           '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '100%',display:'flex' },
            
          }}
        >
          {drawer}
        </Drawer>
 
-          </motion.div>
+        
        
-        </motion.nav>
+       
   
        
      </Box>
