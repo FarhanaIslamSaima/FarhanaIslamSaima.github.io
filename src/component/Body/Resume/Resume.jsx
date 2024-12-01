@@ -18,7 +18,7 @@ const Resume = () => {
         <Grid container sx={{display:'flex',justifyContent:"center",alignItems:"center"}}>
            <Box sx={{display:'flex',width:"70%",justifyContent:"space-between",alignItems:"center",margin:"30px"}}>
             <Typography sx={{fontWeight:"bold"}} variant='h6'>EXPERIENCE</Typography>
-              <Button variant='contained' color='primary'sx={{borderRadius:'25%',fontWeight:'bold'}}>DOWNLOAD CV</Button>
+              <Button variant='contained' color='primary'sx={{borderRadius:'25%',fontWeight:'bold'}} onClick={() => window.location.href = '/cv.pdf'}>DOWNLOAD CV</Button>
            </Box>
             <Grid item lg={12} xs={12}>
                 <Experience></Experience>

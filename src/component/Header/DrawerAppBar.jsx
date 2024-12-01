@@ -50,7 +50,7 @@ const sidebar = {
 
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = [];
 
 function DrawerAppBar(props) {
   const [isOpen, toggleOpen] = React.useState(false);
@@ -103,7 +103,7 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' } ,flexDirection:'row',alignItems:'center'}}
           >
-          <Typography sx={{fontWeight:'bold',fontSize:'20px',display:'flex',alignItems:'center'}}><SquareIcon sx={{color:'blue',marginRight:'10px'}}/> Farhana Islam /</Typography>
+          <Link to="/"><Typography sx={{fontWeight:'bold',fontSize:'20px',display:'flex',alignItems:'center'}}><SquareIcon sx={{color:'blue',marginRight:'10px'}}/> Farhana Islam /</Typography></Link>
           <Link to={"/"} style={{textDecoration:'none'}}><Typography sx={{fontSize:"20px",color:'grey',fontWeight:'lighter'}}>FullStack Developer</Typography></Link>
 
           </Typography>

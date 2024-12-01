@@ -18,8 +18,7 @@ const Experience = () => {
                 </Box>
                 <Box sx={{width:"50%"}}>
                     <Typography sx={{color:'grey',lineHeight:'30px'}}>
-                    I've participated Some hackathon. There I've worked both in front and backend site.. I've also worked for my friend's blog website. there my role was both in front and backend site.. 
-                    projects are given in projects section.
+                    I have actively participated in multiple hackathons, where I contributed to both frontend and backend development, showcasing my ability to work across the full stack. Additionally, I played a key role in the development of a blog website for a friend, where I was responsible for both the frontend and backend aspects of the project. For more details on these projects, please refer to the projects section.
                     </Typography>
 
                 </Box>
@@ -41,8 +40,7 @@ const Experience = () => {
                 </Box>
                 <Box sx={{width:"100%"}}>
                 <Typography sx={{color:'grey',lineHeight:'30px'}}>
-                    I've participated Some hackathon. There I've worked both in front and backend site.. I've also worked for my friend's blog website. there my role was both in front and backend site.. 
-                    projects are given in projects section.
+                I have actively participated in multiple hackathons, where I contributed to both frontend and backend development, showcasing my ability to work across the full stack. Additionally, I played a key role in the development of a blog website for a friend, where I was responsible for both the frontend and backend aspects of the project. For more details on these projects, please refer to the projects section.
                     </Typography>
 
                 </Box>

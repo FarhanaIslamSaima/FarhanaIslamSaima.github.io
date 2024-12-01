@@ -46,8 +46,8 @@ const Skillset = () => {
                        }}
                     >
                         <ListItem>FIREBASE</ListItem>
-                        <ListItem>SOLIDITY</ListItem>
-                        <ListItem>WEB3</ListItem>
+                        <ListItem>NEXT JS</ListItem>
+                        <ListItem>TAILWIND</ListItem>
                         <ListItem>REDUX</ListItem>
                         <ListItem>GITHUB</ListItem>
                     </List>

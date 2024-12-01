@@ -37,7 +37,7 @@ const RightBar = () => {
           </Link>
         </Box>
         <Box sx={{padding:'25px',color:'grey',fontSize:'16px'}}>
-          <Typography sx={{fontSize:'16px'}}>Heii There!! This is Farhana Islam Saima. I'm a fullstack webdeveloper.Proficient at both front and backend .. You can find my skill set and experience in my resume.Don't hesitate to knock me if you need any help</Typography>
+          <Typography sx={{fontSize:'16px'}}>Hi, I'm Farhana Islam Saima, a full-stack web developer proficient in both frontend and backend technologies. You can view my skills and experience in my resume. Feel free to contact me if you need assistance!</Typography>
         </Box>
 
       </Box>

@@ -15,7 +15,7 @@ const LeftBar = () => {
         <img src={pic} width={'100%'} height={'100%'} style={{borderRadius:"50%"}}/>
         
       </Box>
-      <Typography sx={{fontWeight:"bold",fontSize:"22px",borderBottom:'3px solid #7A9EF3',paddingBottom:"20px",marginBottom:'30px',}}>Farhana Islam</Typography>
+      <Typography sx={{fontWeight:"bold",fontSize:"22px",borderBottom:'3px solid #7A9EF3',paddingBottom:"20px",marginBottom:'30px',}} >Farhana Islam</Typography>
       
     <Typography sx={{fontSize:'20px',marginBottom:'40px'}}>FULLSTACK DEVELOPER</Typography>
     <Box sx={{background:'white',display:'flex',justifyContent:"center",alignItems:'center',marginTop:'auto',width:'800px','&>*':{
