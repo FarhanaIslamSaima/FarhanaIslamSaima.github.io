@@ -18,9 +18,11 @@ const HSC = () => {
 
                 </Box>
                 <Box sx={{width:"50%"}}>
-                    <Typography sx={{color:'grey',lineHeight:'30px'}}>
-                    I've secured GPA 5.00 in HSC Exam.. Due to corona pandemic we had almost one year loss and had to seat for hsc in 2022... In short we could not attend our college properly due to pandemic and had to attend online classes. Maybe the only thing I'm happy about my college life was I met the most wholesome people out there..
-                    </Typography>
+                <Typography sx={{ color: 'grey', lineHeight: '30px' }}>
+  I secured a GPA of 5.00 in the HSC exam. Due to the COVID-19 pandemic, we lost almost a year and had to sit for the HSC in 2022. 
+  In short, we couldn’t attend college properly because of the pandemic and had to rely on online classes. 
+  Maybe the only thing I'm truly happy about from my college life is that I met the most wholesome people there.
+</Typography>
 
                 </Box>
             </Box>
@@ -41,9 +43,11 @@ const HSC = () => {
 
                 </Box>
                 <Box sx={{width:"100%"}}>
-                <Typography sx={{color:'grey',lineHeight:'30px'}}>
-                    I've secured GPA 5.00 in HSC Exam.. Due to corona pandemic we had almost one year loss and had to seat for hsc in 2022... In short we could not attend our college properly due to pandemic and had to attend online classes. Maybe the only thing I'm happy about my college life was I met the most wholesome people out there..
-                    </Typography>
+                <Typography sx={{ color: 'grey', lineHeight: '30px' }}>
+  I secured a GPA of 5.00 in the HSC exam. Due to the COVID-19 pandemic, we lost almost a year and had to sit for the HSC in 2022. 
+  In short, we couldn’t attend college properly because of the pandemic and had to rely on online classes. 
+  Maybe the only thing I'm truly happy about from my college life is that I met the most wholesome people there.
+</Typography>
 
                 </Box>
             </Box>

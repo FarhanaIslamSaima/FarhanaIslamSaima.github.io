@@ -18,9 +18,11 @@ const SSC = () => {
 
                 </Box>
                 <Box sx={{width:"50%"}}>
-                    <Typography sx={{color:'grey', lineHeight:'30px'}}>
-                     I've secured GPA 5.00 in SSC Exam. School life journey is always memorable one.. I've got interesting coding and started my development journey both in my school life. Though that time these things were kind of a hobby for me but remembering those days always make my heart melt down
-                    </Typography>
+                <Typography sx={{ color: 'grey', lineHeight: '30px' }}>
+  I secured a GPA of 5.00 in the SSC exam. School life is always a memorable journey. 
+  I got interested in coding and started my development journey during my school years. 
+  Back then, these things were more of a hobby for me, but remembering those days always melts my heart.
+</Typography>
 
                 </Box>
             </Box>
@@ -41,9 +43,11 @@ const SSC = () => {
 
                 </Box>
                 <Box sx={{width:"100%"}}>
-                <Typography sx={{color:'grey', lineHeight:'30px'}}>
-                     I've secured GPA 5.00 in SSC Exam. School life journey is always memorable one.. I've got interesting in coding and started my development journey both in my school life. Though that time these things were kind of a hobby for me but remembering those days always make my heart melt down
-                    </Typography>
+                <Typography sx={{ color: 'grey', lineHeight: '30px' }}>
+  I secured a GPA of 5.00 in the SSC exam. School life is always a memorable journey. 
+  I got interested in coding and started my development journey during my school years. 
+  Back then, these things were more of a hobby for me, but remembering those days always melts my heart.
+</Typography>
 
                 </Box>
             </Box>

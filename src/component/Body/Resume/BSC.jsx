@@ -18,9 +18,10 @@ const BSC = () => {
 
                 </Box>
                 <Box sx={{width:"50%"}}>
-                    <Typography sx={{color:'grey',lineHeight:'30px'}}>
-                    I've always wanted to pursue a degree in computer related subject. Right now I'm in my first year in ECE. On my way to make my dream come true. Looking forward to learning many intersting staffs and make my 4 years journey memorable...
+                <Typography sx={{color:'grey',lineHeight:'30px'}}>
+                    I've always wanted to pursue a degree in computer related subject. Right now I'm in my third year in ECE. On my way to make my dream come true. Looking forward to learning many intersting stuffs and make my 4 years journey memorable...
                     </Typography>
+
 
                 </Box>
             </Box>
@@ -42,7 +43,7 @@ const BSC = () => {
                 </Box>
                 <Box sx={{width:"100%"}}>
                 <Typography sx={{color:'grey',lineHeight:'30px'}}>
-                    I've always wanted to pursue a degree in computer related subject. Right now I'm in my first year in ECE. On my way to make my dream come true. Looking forward to learning many intersting staffs and make my 4 years journey memorable...
+                    I've always wanted to pursue a degree in computer related subject. Right now I'm in my third year in ECE. On my way to make my dream come true. Looking forward to learning many intersting stuffs and make my 4 years journey memorable...
                     </Typography>
 
                 </Box>

@@ -41,7 +41,7 @@ const Project2 = () => {
                         marginBottom:"10px"
                     }}}>
                     <Typography ><b>Technology Used: </b>Next Js, Tailwind,Prisma</Typography>
-                    <Typography><b>Website Link:</b><Link to={"https://assr-two.vercel.app/"}> https://assr-two.vercel.app/</Link></Typography>
+                    <Typography><b>Website Link:</b><Link to={"https://assr-rho.vercel.app/"}> https://assr-two.vercel.app/</Link></Typography>
                     
 
                     </Box>

@@ -5,7 +5,7 @@ import pic from './assets/project1.png'
 import CloseIcon from '@mui/icons-material/Close';
 import {Link} from 'react-router-dom'
 
-const Project3 = () => {
+const Project4 = () => {
     const [open,setOpen]=useState(false);
     const handleOpen=()=>{
         setOpen(true)
@@ -30,18 +30,18 @@ const Project3 = () => {
                     <CloseIcon sx={{marginLeft:'auto',float:'right',fontSize:'30px',cursor:'pointer' } } onClick={handleClose}  />
                     <Box sx={{padding:'20px'}}>
                     <Box sx={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
-                        <img src={"/Project3.png"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
+                        <img src={"/Project4.jpg"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
                     </Box>
-                    <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>City Hub</Typography>
+                    <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>Biddyapeeth</Typography>
                     <Typography sx={{lineHeight:'25px',color:'grey',fontSize:"16px"}}>
-                    City Hub is a comprehensive platform that provides all the essential information about a city in one place. Whether you're a resident, visitor, or planning to move, the site offers easy access to details about local businesses, public services, neighborhoods, transportation, events, and more. With an intuitive design and user-friendly interface, City Hub aims to make navigating and discovering the city easier and more efficient, ensuring that users have all the information they need at their fingertips.
-
+                    
+                     Biddyapeeth is a full-fledged EdTech Website built by our team MindJunkies for GeekySolution Learnathon 3.0 
                     </Typography>
                     <Box sx={{ marginTop:'10px','&>*':{
                         marginBottom:"10px"
                     }}}>
-                    <Typography ><b>Technology Used: </b>Next Js,Tailwind,Firebase,Express Js ,Node Js</Typography>
-                    <Typography><b>Website Link:</b><Link to={"https://city-hub-msny.vercel.app/"}> https://city-hub-msny.vercel.app/</Link></Typography>
+                    <Typography ><b>Technology Used: </b>Django,Html,Css</Typography>
+                    <Typography><b>Website Link:</b><Link to={"http://biddyapeeth.mindjunkies.tech/"}> http://biddyapeeth.mindjunkies.tech/</Link></Typography>
                     
 
                     </Box>
@@ -54,18 +54,18 @@ const Project3 = () => {
                     <CloseIcon sx={{marginLeft:'auto',float:'right',fontSize:'30px',cursor:'pointer' } } onClick={handleClose}  />
                     <Box sx={{padding:'20px'}}>
                     <Box sx={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
-                        <img src={"/Project3.png"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
+                        <img src={"/Project4.jpg"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
                     </Box>
-                    <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>Deptdemia</Typography>
+                    <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>Biddyapeeth</Typography>
                     <Typography sx={{lineHeight:'25px',color:'grey',fontSize:"16px"}}>
-                    City Hub is a comprehensive platform that provides all the essential information about a city in one place. Whether you're a resident, visitor, or planning to move, the site offers easy access to details about local businesses, public services, neighborhoods, transportation, events, and more. With an intuitive design and user-friendly interface, City Hub aims to make navigating and discovering the city easier and more efficient, ensuring that users have all the information they need at their fingertips.
+                    Biddyapeeth is a full-fledged EdTech Website built by our team MindJunkies for GeekySolution Learnathon 3.0
 
                     </Typography>
                     <Box sx={{ marginTop:'10px','&>*':{
                         marginBottom:"10px"
                     }}}>
-                    <Typography ><b>Technology Used: </b>Next Js,Tailwind,Firebase,Express,Node Js</Typography>
-                    <Typography><b>Website Link:</b><Link to={"https://city-hub-msny.vercel.app/"}> https://city-hub-msny.vercel.app/</Link></Typography>
+                    <Typography ><b>Technology Used: </b>Django,Html,Css</Typography>
+                    <Typography><b>Website Link:</b><Link to={"http://biddyapeeth.mindjunkies.tech/"}> http://biddyapeeth.mindjunkies.tech/</Link></Typography>
                   
 
                     </Box>
@@ -82,12 +82,12 @@ const Project3 = () => {
         </Dialog>
         <Card sx={{width:'450px',margin:"10px"}}>
             <Box sx={{objectFit:'cover'}}>
-                <img src={"/Project3.png"} width={'100%'} height={'100%'} style={{objectFit:'contain'}}/>
+                <img src={"/Project4.jpg"} width={'100%'} height={'100%'} style={{objectFit:'contain'}}/>
             </Box>
             <Box sx={{padding:'6px','&>*':{
                 padding:'6px'
             }}}>
-                <Typography sx={{fontStyle:'italic',fontWeight:'bold'}}>City Hub</Typography>
+                <Typography sx={{fontStyle:'italic',fontWeight:'bold'}}>Biddyapeeth</Typography>
                 <Button color='primary' variant='contained' sx={{paddingTop:'10px',paddingBottom:'10px'}}onClick={handleOpen}>View Details</Button>
             </Box>
 
@@ -96,4 +96,4 @@ const Project3 = () => {
     );
 };
 
-export default Project3;
+export default Project4;
