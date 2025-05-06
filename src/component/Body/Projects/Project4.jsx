@@ -30,7 +30,7 @@ const Project4 = () => {
                     <CloseIcon sx={{marginLeft:'auto',float:'right',fontSize:'30px',cursor:'pointer' } } onClick={handleClose}  />
                     <Box sx={{padding:'20px'}}>
                     <Box sx={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
-                        <img src={"/Project4.jpg"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
+                        <img src={"/project4.jpg"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
                     </Box>
                     <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>Biddyapeeth</Typography>
                     <Typography sx={{lineHeight:'25px',color:'grey',fontSize:"16px"}}>
@@ -54,7 +54,7 @@ const Project4 = () => {
                     <CloseIcon sx={{marginLeft:'auto',float:'right',fontSize:'30px',cursor:'pointer' } } onClick={handleClose}  />
                     <Box sx={{padding:'20px'}}>
                     <Box sx={{display:'flex',justifyContent:'center',marginTop:'20px'}}>
-                        <img src={"/Project4.jpg"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
+                        <img src={"/project4.jpg"} style={{objectFit:'contain'}} height={'100%'} width={'100%'}/>
                     </Box>
                     <Typography sx={{fontStyle:'italic',marginTop:'20px',fontWeight:'bold',fontSize:'25px'}}>Biddyapeeth</Typography>
                     <Typography sx={{lineHeight:'25px',color:'grey',fontSize:"16px"}}>
