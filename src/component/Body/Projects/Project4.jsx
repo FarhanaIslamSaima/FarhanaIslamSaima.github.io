@@ -82,7 +82,7 @@ const Project4 = () => {
         </Dialog>
         <Card sx={{width:'450px',margin:"10px"}}>
             <Box sx={{objectFit:'cover'}}>
-                <img src={"/Project4.jpg"} width={'100%'} height={'100%'} style={{objectFit:'contain'}}/>
+                <img src={"/project4.jpg"} width={'100%'} height={'100%'} style={{objectFit:'contain'}}/>
             </Box>
             <Box sx={{padding:'6px','&>*':{
                 padding:'6px'
